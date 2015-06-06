@@ -1,0 +1,601 @@
+# 
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "model:babi.dimension,name:sale_line_party_product_year_month__month"
+msgid "Month"
+msgstr "Mes"
+
+msgctxt "model:babi.dimension,name:sale_line_party_product_year_month__party"
+msgid "Party"
+msgstr "Tercero"
+
+msgctxt ""
+"model:babi.dimension,name:sale_line_party_product_year_month__product"
+msgid "Product"
+msgstr "Producto"
+
+msgctxt "model:babi.dimension,name:sale_line_party_product_year_month__year"
+msgid "Year"
+msgstr "Año"
+
+msgctxt "model:babi.dimension,name:sale_line_product_year_month__month"
+msgid "Month"
+msgstr "Mes"
+
+msgctxt "model:babi.dimension,name:sale_line_product_year_month__product"
+msgid "Product"
+msgstr "Producto"
+
+msgctxt "model:babi.dimension,name:sale_line_product_year_month__year"
+msgid "Year"
+msgstr "Año"
+
+msgctxt ""
+"model:babi.dimension,name:sale_line_year_product_country_state_city__city"
+msgid "City"
+msgstr "Ciudad"
+
+msgctxt ""
+"model:babi.dimension,name:sale_line_year_product_country_state_city__country"
+msgid "Country"
+msgstr "País"
+
+msgctxt ""
+"model:babi.dimension,name:sale_line_year_product_country_state_city__product"
+msgid "Product"
+msgstr "Producto"
+
+msgctxt ""
+"model:babi.dimension,name:sale_line_year_product_country_state_city__state"
+msgid "State/Region"
+msgstr "Subdivisión"
+
+msgctxt ""
+"model:babi.dimension,name:sale_line_year_product_country_state_city__year"
+msgid "Year"
+msgstr "Año"
+
+msgctxt "model:babi.dimension,name:sale_line_year_product_month__month"
+msgid "Month"
+msgstr "Mes"
+
+msgctxt "model:babi.dimension,name:sale_line_year_product_month__product"
+msgid "Product"
+msgstr "Producto"
+
+msgctxt "model:babi.dimension,name:sale_line_year_product_month__year"
+msgid "Year"
+msgstr "Año"
+
+msgctxt "model:babi.dimension,name:sale_line_year_product_party_month__month"
+msgid "Month"
+msgstr "Mes"
+
+msgctxt "model:babi.dimension,name:sale_line_year_product_party_month__party"
+msgid "Party"
+msgstr "Tercero"
+
+msgctxt ""
+"model:babi.dimension,name:sale_line_year_product_party_month__product"
+msgid "Product"
+msgstr "Producto"
+
+msgctxt "model:babi.dimension,name:sale_line_year_product_party_month__year"
+msgid "Year"
+msgstr "Año"
+
+msgctxt ""
+"model:babi.dimension,name:sale_line_year_productcategory_product__category"
+msgid "Product Category"
+msgstr "Categoría de producto"
+
+msgctxt ""
+"model:babi.dimension,name:sale_line_year_productcategory_product__product"
+msgid "Product"
+msgstr "Producto"
+
+msgctxt ""
+"model:babi.dimension,name:sale_line_year_productcategory_product__year"
+msgid "Year"
+msgstr "Año"
+
+msgctxt "model:babi.dimension,name:sale_month_year__month"
+msgid "Month"
+msgstr "Mes"
+
+msgctxt "model:babi.dimension,name:sale_month_year__year"
+msgid "Year-Month"
+msgstr "Año-Mes"
+
+msgctxt "model:babi.dimension,name:sale_month_year_salesman__month"
+msgid "Month"
+msgstr "Mes"
+
+msgctxt "model:babi.dimension,name:sale_month_year_salesman__year"
+msgid "Year-Month"
+msgstr "Año-Mes"
+
+msgctxt "model:babi.dimension,name:sale_month_year_shop__month"
+msgid "Month"
+msgstr "Mes"
+
+msgctxt "model:babi.dimension,name:sale_month_year_shop__year"
+msgid "Year-Month"
+msgstr "Año-Mes"
+
+msgctxt "model:babi.dimension,name:sale_party_year_month__month"
+msgid "Month"
+msgstr "Mes"
+
+msgctxt "model:babi.dimension,name:sale_party_year_month__party"
+msgid "Party"
+msgstr "Tercero"
+
+msgctxt "model:babi.dimension,name:sale_party_year_month__year"
+msgid "Year"
+msgstr "Año"
+
+msgctxt "model:babi.dimension,name:sale_year_country_state_city__city"
+msgid "City"
+msgstr "Ciudad"
+
+msgctxt "model:babi.dimension,name:sale_year_country_state_city__country"
+msgid "Country"
+msgstr "País"
+
+msgctxt "model:babi.dimension,name:sale_year_country_state_city__state"
+msgid "State/Region"
+msgstr "Subdivisión"
+
+msgctxt "model:babi.dimension,name:sale_year_country_state_city__year"
+msgid "Year"
+msgstr "Año"
+
+msgctxt "model:babi.dimension,name:sale_year_month_date__date"
+msgid "Day"
+msgstr "Día"
+
+msgctxt "model:babi.dimension,name:sale_year_month_date__month"
+msgid "Month"
+msgstr "Mes"
+
+msgctxt "model:babi.dimension,name:sale_year_party_month__month"
+msgid "Month"
+msgstr "Mes"
+
+msgctxt "model:babi.dimension,name:sale_year_party_month__party"
+msgid "Partner"
+msgstr "Tercero"
+
+msgctxt "model:babi.dimension,name:sale_year_party_month__year"
+msgid "Year"
+msgstr "Año"
+
+msgctxt "model:babi.dimension,name:sale_year_paymenttype__payment_type"
+msgid "Payment Type"
+msgstr "Tipo de pago"
+
+msgctxt "model:babi.dimension,name:sale_year_paymenttype__year"
+msgid "Year"
+msgstr "Año"
+
+msgctxt "model:babi.dimension.column,name:sale_month_year_salesman__salesman"
+msgid "Salesman"
+msgstr "Vendedor"
+
+msgctxt "model:babi.dimension.column,name:sale_month_year_shop__shop"
+msgid "Shop"
+msgstr "Tienda"
+
+msgctxt "model:babi.dimension.column,name:sale_year_month_date__year"
+msgid "Year"
+msgstr "Año"
+
+msgctxt "model:babi.expression,name:sale_line"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "model:babi.expression,name:sale_line_available_quantity"
+msgid "Product Available Quantity"
+msgstr "Cantidad disponible de producto"
+
+msgctxt "model:babi.expression,name:sale_line_city"
+msgid "City"
+msgstr "Ciudad"
+
+msgctxt "model:babi.expression,name:sale_line_country"
+msgid "Country"
+msgstr "País"
+
+msgctxt "model:babi.expression,name:sale_line_currency"
+msgid "Currency"
+msgstr "Moneda"
+
+msgctxt "model:babi.expression,name:sale_line_date"
+msgid "Date"
+msgstr "Fecha"
+
+msgctxt "model:babi.expression,name:sale_line_day"
+msgid "Day"
+msgstr "Día"
+
+msgctxt "model:babi.expression,name:sale_line_discount"
+msgid "Discount"
+msgstr "Descuento"
+
+msgctxt "model:babi.expression,name:sale_line_month"
+msgid "Month"
+msgstr "Mes"
+
+msgctxt "model:babi.expression,name:sale_line_party_name"
+msgid "Party Name"
+msgstr "Nombre del tercero"
+
+msgctxt "model:babi.expression,name:sale_line_payment_term"
+msgid "Payment Term"
+msgstr "Plazo de pago"
+
+msgctxt "model:babi.expression,name:sale_line_payment_type"
+msgid "Payment Type"
+msgstr "Tipo de pago"
+
+msgctxt "model:babi.expression,name:sale_line_price_unit"
+msgid "Unit Price"
+msgstr "Precio unidad"
+
+msgctxt "model:babi.expression,name:sale_line_product"
+msgid "Product"
+msgstr "Producto"
+
+msgctxt "model:babi.expression,name:sale_line_product_category"
+msgid "Product Category"
+msgstr "Categoría de producto"
+
+msgctxt "model:babi.expression,name:sale_line_product_code"
+msgid "Product Code"
+msgstr "Código de producto"
+
+msgctxt "model:babi.expression,name:sale_line_product_name"
+msgid "Product Name"
+msgstr "Nombre de producto"
+
+msgctxt "model:babi.expression,name:sale_line_product_type"
+msgid "Product Type"
+msgstr "Tipo de producto"
+
+msgctxt "model:babi.expression,name:sale_line_quantity"
+msgid "Quantity (no UoM conversion)"
+msgstr "Cantidad (sin conversión de UdM)"
+
+msgctxt "model:babi.expression,name:sale_line_region"
+msgid "State/Region"
+msgstr "Subdivisión"
+
+msgctxt "model:babi.expression,name:sale_line_state"
+msgid "Sale State"
+msgstr "Estado de la venta"
+
+msgctxt "model:babi.expression,name:sale_line_subtotal"
+msgid "Amount"
+msgstr "Importe"
+
+msgctxt "model:babi.expression,name:sale_line_tax_code"
+msgid "Tax Codes"
+msgstr "Códigos de impuesto"
+
+msgctxt "model:babi.expression,name:sale_line_tax_name"
+msgid "Tax Names"
+msgstr "Nombres de impuesto"
+
+msgctxt "model:babi.expression,name:sale_line_total_amount"
+msgid "Sale Total Amount"
+msgstr "Importe venta"
+
+msgctxt "model:babi.expression,name:sale_line_untaxed_amount"
+msgid "Sale Untaxed Amount"
+msgstr "Base imponible venta"
+
+msgctxt "model:babi.expression,name:sale_line_uos"
+msgid "UoM"
+msgstr "UdM"
+
+msgctxt "model:babi.expression,name:sale_line_virtual_quantity"
+msgid "Product Forecast Quantity"
+msgstr "Cantidad prevista de producto"
+
+msgctxt "model:babi.expression,name:sale_line_year"
+msgid "Year"
+msgstr "Año"
+
+msgctxt "model:babi.expression,name:sale_line_year_month"
+msgid "Year-Month"
+msgstr "Año-Mes"
+
+msgctxt "model:babi.expression,name:sale_line_zip"
+msgid "Zip"
+msgstr "Código postal"
+
+msgctxt "model:babi.expression,name:sale_sale"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "model:babi.expression,name:sale_sale_city"
+msgid "City"
+msgstr "Ciudad"
+
+msgctxt "model:babi.expression,name:sale_sale_country"
+msgid "Country"
+msgstr "País"
+
+msgctxt "model:babi.expression,name:sale_sale_currency_name"
+msgid "Currency"
+msgstr "Moneda"
+
+msgctxt "model:babi.expression,name:sale_sale_date"
+msgid "Date"
+msgstr "Fecha"
+
+msgctxt "model:babi.expression,name:sale_sale_day"
+msgid "Day"
+msgstr "Día"
+
+msgctxt "model:babi.expression,name:sale_sale_margin"
+msgid "Margin"
+msgstr "Margen"
+
+msgctxt "model:babi.expression,name:sale_sale_margin_percent"
+msgid "Margin Percent"
+msgstr "Porcentaje de margen"
+
+msgctxt "model:babi.expression,name:sale_sale_month"
+msgid "Month"
+msgstr "Mes"
+
+msgctxt "model:babi.expression,name:sale_sale_party_name"
+msgid "Party Name"
+msgstr "Nombre del tercero"
+
+msgctxt "model:babi.expression,name:sale_sale_payment_term_name"
+msgid "Payment Term"
+msgstr "Plazo de pago"
+
+msgctxt "model:babi.expression,name:sale_sale_payment_type"
+msgid "Payment Type"
+msgstr "Tipo de pago"
+
+msgctxt "model:babi.expression,name:sale_sale_reference"
+msgid "Reference"
+msgstr "Referencia"
+
+msgctxt "model:babi.expression,name:sale_sale_region"
+msgid "State/Region"
+msgstr "Subdivisión"
+
+msgctxt "model:babi.expression,name:sale_sale_salesman"
+msgid "Salesman"
+msgstr "Vendedor"
+
+msgctxt "model:babi.expression,name:sale_sale_self"
+msgid "Sale"
+msgstr "Venta"
+
+msgctxt "model:babi.expression,name:sale_sale_shop"
+msgid "Shop"
+msgstr "Tienda"
+
+msgctxt "model:babi.expression,name:sale_sale_state"
+msgid "State"
+msgstr "Estado"
+
+msgctxt "model:babi.expression,name:sale_sale_total_amount"
+msgid "Total Amount"
+msgstr "Total"
+
+msgctxt "model:babi.expression,name:sale_sale_untaxed_amount"
+msgid "Untaxed Amount"
+msgstr "Base imponible"
+
+msgctxt "model:babi.expression,name:sale_sale_week"
+msgid "Week"
+msgstr "Semana"
+
+msgctxt "model:babi.expression,name:sale_sale_year"
+msgid "Year"
+msgstr "Año"
+
+msgctxt "model:babi.expression,name:sale_sale_year_month"
+msgid "Year-Month"
+msgstr "Año-Mes"
+
+msgctxt "model:babi.expression,name:sale_sale_zip"
+msgid "Zip"
+msgstr "Código postal"
+
+msgctxt "model:babi.filter,name:done_sale_lines"
+msgid "Done Sales"
+msgstr "Ventas finalizadas"
+
+msgctxt "model:babi.filter,name:done_sales"
+msgid "Done Sales"
+msgstr "Ventas finalizadas"
+
+msgctxt "model:babi.filter,name:processing_done_sale_lines"
+msgid "Processing/Done Sales"
+msgstr "Ventas en proceso/finalizadas"
+
+msgctxt "model:babi.filter,name:processing_done_sales"
+msgid "Processing/Done Sales"
+msgstr "Ventas en proceso/finalizadas"
+
+msgctxt "model:babi.filter,name:processing_sale_lines"
+msgid "Processing Sales"
+msgstr "Ventas en proceso"
+
+msgctxt "model:babi.filter,name:processing_sales"
+msgid "Processing Sales"
+msgstr "Ventas en proceso"
+
+msgctxt "model:babi.measure,name:sale_line_party_product_year_month__discount"
+msgid "Discount Average"
+msgstr "Promedio descuento"
+
+msgctxt "model:babi.measure,name:sale_line_party_product_year_month__quantity"
+msgid "Quantity"
+msgstr "Cantidad"
+
+msgctxt "model:babi.measure,name:sale_line_party_product_year_month__subtotal"
+msgid "Subtotal"
+msgstr "Subtotal"
+
+msgctxt "model:babi.measure,name:sale_line_product_year_month__quantity"
+msgid "Quantity"
+msgstr "Cantidad"
+
+msgctxt "model:babi.measure,name:sale_line_product_year_month__subtotal"
+msgid "Subtotal"
+msgstr "Subtotal"
+
+msgctxt ""
+"model:babi.measure,name:sale_line_year_product_country_state_city__quantity"
+msgid "Quantity"
+msgstr "Cantidad"
+
+msgctxt ""
+"model:babi.measure,name:sale_line_year_product_country_state_city__subtotal"
+msgid "Subtotal"
+msgstr "Subtotal"
+
+msgctxt "model:babi.measure,name:sale_line_year_product_month__quantity"
+msgid "Quantity"
+msgstr "Cantidad"
+
+msgctxt "model:babi.measure,name:sale_line_year_product_month__subtotal"
+msgid "Amount"
+msgstr "Importe"
+
+msgctxt "model:babi.measure,name:sale_line_year_product_party_month__discount"
+msgid "Discount Average"
+msgstr "Promedio descuento"
+
+msgctxt "model:babi.measure,name:sale_line_year_product_party_month__quantity"
+msgid "Quantity"
+msgstr "Cantidad"
+
+msgctxt "model:babi.measure,name:sale_line_year_product_party_month__subtotal"
+msgid "Subtotal"
+msgstr "Subtotal"
+
+msgctxt ""
+"model:babi.measure,name:sale_line_year_productcategory_product__quantity"
+msgid "Quantity"
+msgstr "Cantidad"
+
+msgctxt ""
+"model:babi.measure,name:sale_line_year_productcategory_product__subtotal"
+msgid "Subtotal"
+msgstr "Subtotal"
+
+msgctxt "model:babi.measure,name:sale_month_year__untaxed_amount"
+msgid "Untaxed Amount"
+msgstr "Base imponible"
+
+msgctxt "model:babi.measure,name:sale_month_year_salesman__untaxed_amount"
+msgid "Untaxed Amount"
+msgstr "Base imponible"
+
+msgctxt "model:babi.measure,name:sale_month_year_shop__untaxed_amount"
+msgid "Untaxed Amount"
+msgstr "Base imponible"
+
+msgctxt "model:babi.measure,name:sale_party_year_month__margin"
+msgid "Margin"
+msgstr "Margen"
+
+msgctxt "model:babi.measure,name:sale_party_year_month__margin_percent"
+msgid "Margin Percent Average"
+msgstr "Promedio porcentaje de margen"
+
+msgctxt "model:babi.measure,name:sale_party_year_month__untaxed_amount"
+msgid "Untaxed Amount"
+msgstr "Base imponible"
+
+msgctxt "model:babi.measure,name:sale_year_country_state_city__untaxed_amount"
+msgid "Untaxed Amount"
+msgstr "Base imponible"
+
+msgctxt "model:babi.measure,name:sale_year_month_date__untaxed_amount"
+msgid "Untaxed Amount"
+msgstr "Base imponible"
+
+msgctxt "model:babi.measure,name:sale_year_party_month__margin"
+msgid "Margin"
+msgstr "Margen"
+
+msgctxt "model:babi.measure,name:sale_year_party_month__margin_percent"
+msgid "Margin Percent Average"
+msgstr "Promedio porcentaje de margen"
+
+msgctxt "model:babi.measure,name:sale_year_party_month__untaxed_amount"
+msgid "Untaxed Amount"
+msgstr "Base imponible"
+
+msgctxt "model:babi.measure,name:sale_year_paymenttype__untaxed_amount"
+msgid "Untaxed Amount"
+msgstr "Base imponible"
+
+msgctxt "model:babi.report,name:sale_line_party_product_year_month"
+msgid "Sale lines by Party - Product - Year - Month"
+msgstr "Líneas de venta por Tercero - Producto - Año - Mes"
+
+msgctxt "model:babi.report,name:sale_line_product_year_month"
+msgid "Sale lines by Product - Year - Month"
+msgstr "Líneas de venta por Producto - Año - Mes"
+
+msgctxt "model:babi.report,name:sale_line_year_product_country_state_city"
+msgid "Sale lines by Year - Product - Country - State - City"
+msgstr "Líneas de venta por Año - Producto - País - Subdivisión - Ciudad"
+
+msgctxt "model:babi.report,name:sale_line_year_product_month"
+msgid "Sale lines by Year - Product - Month"
+msgstr "Líneas de venta por Año - Producto - Mes"
+
+msgctxt "model:babi.report,name:sale_line_year_product_party_month"
+msgid "Sale lines by Year - Product - Party - Month"
+msgstr "Líneas de venta por Año - Producto - Tercero - Mes"
+
+msgctxt "model:babi.report,name:sale_line_year_productcategory_product"
+msgid "Sale lines by Year - Product Category - Product"
+msgstr "Líneas de venta por Año - Categoría de producto - Producto"
+
+msgctxt "model:babi.report,name:sale_month_year"
+msgid "Sales by Month - Year"
+msgstr "Ventas por Mes - Año"
+
+msgctxt "model:babi.report,name:sale_month_year_salesman"
+msgid "Sales by Month - Year - Salesman"
+msgstr "Ventas por Mes - Año - Vendedor"
+
+msgctxt "model:babi.report,name:sale_month_year_shop"
+msgid "Sales by Month - Year - Shop"
+msgstr "Ventas por Mes - Año - Tienda"
+
+msgctxt "model:babi.report,name:sale_party_year_month"
+msgid "Sales by Partner - Year - Month"
+msgstr "Ventas por Tercero - Año - Mes"
+
+msgctxt "model:babi.report,name:sale_year_country_state_city"
+msgid "Sales by Year - Country - State - City"
+msgstr "Ventas por Año - País - Subdivisión - Ciudad"
+
+msgctxt "model:babi.report,name:sale_year_month_date"
+msgid "Sales by Year - Month - Day"
+msgstr "Ventas por Año - Mes - Día"
+
+msgctxt "model:babi.report,name:sale_year_party_month"
+msgid "Sales by Year - Partner - Month"
+msgstr "Ventas por Año - Tercero - Mes"
+
+msgctxt "model:babi.report,name:sale_year_paymenttype"
+msgid "Sales by Year - Payment Type"
+msgstr "Ventas por Año - Tipo de pago"
