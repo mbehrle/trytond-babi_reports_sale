@@ -2,6 +2,10 @@
 msgid ""
 msgstr "Content-Type: text/plain; charset=utf-8\n"
 
+msgctxt "model:babi.dimension,name:"
+msgid "Month"
+msgstr "Mes"
+
 msgctxt "model:babi.dimension,name:sale_line_party_product_year_month__month"
 msgid "Month"
 msgstr "Mes"
@@ -108,22 +112,6 @@ msgctxt "model:babi.dimension,name:sale_month_year__year"
 msgid "Year-Month"
 msgstr "Any-Mes"
 
-msgctxt "model:babi.dimension,name:sale_month_year_salesman__month"
-msgid "Month"
-msgstr "Mes"
-
-msgctxt "model:babi.dimension,name:sale_month_year_salesman__year"
-msgid "Year-Month"
-msgstr "Any-Mes"
-
-msgctxt "model:babi.dimension,name:sale_month_year_shop__month"
-msgid "Month"
-msgstr "Mes"
-
-msgctxt "model:babi.dimension,name:sale_month_year_shop__year"
-msgid "Year-Month"
-msgstr "Any-Mes"
-
 msgctxt "model:babi.dimension,name:sale_party_year_month__month"
 msgid "Month"
 msgstr "Mes"
@@ -165,7 +153,7 @@ msgid "Month"
 msgstr "Mes"
 
 msgctxt "model:babi.dimension,name:sale_year_party_month__party"
-msgid "Partner"
+msgid "Party"
 msgstr "Tercer"
 
 msgctxt "model:babi.dimension,name:sale_year_party_month__year"
@@ -180,17 +168,17 @@ msgctxt "model:babi.dimension,name:sale_year_paymenttype__year"
 msgid "Year"
 msgstr "Any"
 
-msgctxt "model:babi.dimension.column,name:sale_month_year_salesman__salesman"
+msgctxt "model:babi.dimension.column,name:"
 msgid "Salesman"
 msgstr "Venedor"
-
-msgctxt "model:babi.dimension.column,name:sale_month_year_shop__shop"
-msgid "Shop"
-msgstr "Tenda"
 
 msgctxt "model:babi.dimension.column,name:sale_year_month_date__year"
 msgid "Year"
 msgstr "Any"
+
+msgctxt "model:babi.expression,name:"
+msgid "Salesman"
+msgstr "Venedor"
 
 msgctxt "model:babi.expression,name:sale_line"
 msgid "ID"
@@ -372,17 +360,9 @@ msgctxt "model:babi.expression,name:sale_sale_region"
 msgid "State/Region"
 msgstr "Subdivisió"
 
-msgctxt "model:babi.expression,name:sale_sale_salesman"
-msgid "Salesman"
-msgstr "Venedor"
-
 msgctxt "model:babi.expression,name:sale_sale_self"
 msgid "Sale"
 msgstr "Venda"
-
-msgctxt "model:babi.expression,name:sale_sale_shop"
-msgid "Shop"
-msgstr "Tenda"
 
 msgctxt "model:babi.expression,name:sale_sale_state"
 msgid "State"
@@ -500,14 +480,6 @@ msgctxt "model:babi.measure,name:sale_month_year__untaxed_amount"
 msgid "Untaxed Amount"
 msgstr "Base imponible"
 
-msgctxt "model:babi.measure,name:sale_month_year_salesman__untaxed_amount"
-msgid "Untaxed Amount"
-msgstr "Base imponible"
-
-msgctxt "model:babi.measure,name:sale_month_year_shop__untaxed_amount"
-msgid "Untaxed Amount"
-msgstr "Base imponible"
-
 msgctxt "model:babi.measure,name:sale_party_year_month__margin"
 msgid "Margin"
 msgstr "Marge"
@@ -544,6 +516,10 @@ msgctxt "model:babi.measure,name:sale_year_paymenttype__untaxed_amount"
 msgid "Untaxed Amount"
 msgstr "Base imponible"
 
+msgctxt "model:babi.report,name:"
+msgid "Sales by Month - Year - Salesman"
+msgstr "Vendes per Mes - Any - Venedor"
+
 msgctxt "model:babi.report,name:sale_line_party_product_year_month"
 msgid "Sale lines by Party - Product - Year - Month"
 msgstr "Línies de venda per Tercer - Producte - Any - Mes"
@@ -572,16 +548,8 @@ msgctxt "model:babi.report,name:sale_month_year"
 msgid "Sales by Month - Year"
 msgstr "Vendes per Mes - Any"
 
-msgctxt "model:babi.report,name:sale_month_year_salesman"
-msgid "Sales by Month - Year - Salesman"
-msgstr "Vendes per Mes - Any - Venedor"
-
-msgctxt "model:babi.report,name:sale_month_year_shop"
-msgid "Sales by Month - Year - Shop"
-msgstr "Vendes per Mes - Any - Tenda"
-
 msgctxt "model:babi.report,name:sale_party_year_month"
-msgid "Sales by Partner - Year - Month"
+msgid "Sales by Party - Year - Month"
 msgstr "Vendes per Tercer - Any - Mes"
 
 msgctxt "model:babi.report,name:sale_year_country_state_city"
@@ -593,7 +561,7 @@ msgid "Sales by Year - Month - Day"
 msgstr "Vendes per Any - Mes - Dia"
 
 msgctxt "model:babi.report,name:sale_year_party_month"
-msgid "Sales by Year - Partner - Month"
+msgid "Sales by Year - Party - Month"
 msgstr "Vendes per Any - Tercer - Mes"
 
 msgctxt "model:babi.report,name:sale_year_paymenttype"
