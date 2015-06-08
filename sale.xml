@@ -175,18 +175,6 @@
             <field name="expression">o.margin_percent_cache</field>
             <field name="name">Margin Percent</field>
         </record>
-        <record model="babi.expression" id="sale_sale_salesman">
-            <field name="ttype">char</field>
-            <field name="model" search="[('model','=','sale.sale')]"/>
-            <field name="expression">o.employee and o.employee.rec_name</field>
-            <field name="name">Salesman</field>
-        </record>
-        <record model="babi.expression" id="sale_sale_shop">
-            <field name="ttype">char</field>
-            <field name="model" search="[('model','=','sale.sale')]"/>
-            <field name="expression">o.shop and o.shop.rec_name</field>
-            <field name="name">Shop</field>
-        </record>
 
         <!-- sale.line -->
         <record model="babi.expression" id="sale_line">
@@ -447,82 +435,6 @@
         </record>
         <record model="babi.measure" id="sale_month_year__untaxed_amount">
             <field name="report" ref="sale_month_year"/>
-            <field name="expression" ref="sale_sale_untaxed_amount"/>
-            <field name="name">Untaxed Amount</field>
-            <field name="aggregate">sum</field>
-        </record>
-
-        <!-- Month - Year - Salesman | Amount Untaxed -->
-        <record model="babi.report" id="sale_month_year_salesman">
-            <field name="parent_menu" ref="babi.menu_babi"/>
-            <field name="model" search="[('model','=','sale.sale')]"/>
-            <field name="filter" ref="processing_done_sales"/>
-            <field name="name">Sales by Month - Year - Salesman</field>
-            <field name="timeout" eval="1200"/>
-        </record>
-        <record model="babi.report-res.group"
-                id="sale_month_year_salesman_group_babi_">
-            <field name="report" ref="sale_month_year_salesman"/>
-            <field name="group" ref="babi.group_babi"/>
-        </record>
-        <record model="babi.dimension" id="sale_month_year_salesman__month">
-            <field name="report" ref="sale_month_year_salesman"/>
-            <field name="expression" ref="sale_sale_month"/>
-            <field name="name">Month</field>
-            <field name="sequence">1</field>
-        </record>
-        <record model="babi.dimension" id="sale_month_year_salesman__year">
-            <field name="report" ref="sale_month_year_salesman"/>
-            <field name="expression" ref="sale_sale_year"/>
-            <field name="name">Year-Month</field>
-            <field name="sequence">2</field>
-        </record>
-        <record model="babi.dimension.column" id="sale_month_year_salesman__salesman">
-            <field name="report" ref="sale_month_year_salesman"/>
-            <field name="expression" ref="sale_sale_salesman"/>
-            <field name="name">Salesman</field>
-            <field name="sequence">3</field>
-        </record>
-        <record model="babi.measure" id="sale_month_year_salesman__untaxed_amount">
-            <field name="report" ref="sale_month_year_salesman"/>
-            <field name="expression" ref="sale_sale_untaxed_amount"/>
-            <field name="name">Untaxed Amount</field>
-            <field name="aggregate">sum</field>
-        </record>
-
-        <!-- Month - Year - Shop | Amount Untaxed -->
-        <record model="babi.report" id="sale_month_year_shop">
-            <field name="parent_menu" ref="babi.menu_babi"/>
-            <field name="model" search="[('model','=','sale.sale')]"/>
-            <field name="filter" ref="processing_done_sales"/>
-            <field name="name">Sales by Month - Year - Shop</field>
-            <field name="timeout" eval="1200"/>
-        </record>
-        <record model="babi.report-res.group"
-                id="sale_month_year_shop_group_babi_">
-            <field name="report" ref="sale_month_year_shop"/>
-            <field name="group" ref="babi.group_babi"/>
-        </record>
-        <record model="babi.dimension" id="sale_month_year_shop__month">
-            <field name="report" ref="sale_month_year_shop"/>
-            <field name="expression" ref="sale_sale_month"/>
-            <field name="name">Month</field>
-            <field name="sequence">1</field>
-        </record>
-        <record model="babi.dimension" id="sale_month_year_shop__year">
-            <field name="report" ref="sale_month_year_shop"/>
-            <field name="expression" ref="sale_sale_year"/>
-            <field name="name">Year-Month</field>
-            <field name="sequence">2</field>
-        </record>
-        <record model="babi.dimension.column" id="sale_month_year_shop__shop">
-            <field name="report" ref="sale_month_year_shop"/>
-            <field name="expression" ref="sale_sale_shop"/>
-            <field name="name">Shop</field>
-            <field name="sequence">3</field>
-        </record>
-        <record model="babi.measure" id="sale_month_year_shop__untaxed_amount">
-            <field name="report" ref="sale_month_year_shop"/>
             <field name="expression" ref="sale_sale_untaxed_amount"/>
             <field name="name">Untaxed Amount</field>
             <field name="aggregate">sum</field>
@@ -1023,6 +935,101 @@
             <field name="name">Subtotal</field>
             <field name="aggregate">sum</field>
             <field name="sequence">2</field>
+        </record>
+   </data>
+
+   <data depends="sale_salesman">
+        <record model="babi.expression" id="sale_sale_salesman">
+            <field name="ttype">char</field>
+            <field name="model" search="[('model','=','sale.sale')]"/>
+            <field name="expression">o.employee and o.employee.rec_name</field>
+            <field name="name">Salesman</field>
+        </record>
+
+        <!-- Month - Year - Salesman | Amount Untaxed -->
+        <record model="babi.report" id="sale_month_year_salesman">
+            <field name="parent_menu" ref="babi.menu_babi"/>
+            <field name="model" search="[('model','=','sale.sale')]"/>
+            <field name="filter" ref="processing_done_sales"/>
+            <field name="name">Sales by Month - Year - Salesman</field>
+            <field name="timeout" eval="1200"/>
+        </record>
+        <record model="babi.report-res.group"
+                id="sale_month_year_salesman_group_babi_">
+            <field name="report" ref="sale_month_year_salesman"/>
+            <field name="group" ref="babi.group_babi"/>
+        </record>
+        <record model="babi.dimension" id="sale_month_year_salesman__month">
+            <field name="report" ref="sale_month_year_salesman"/>
+            <field name="expression" ref="sale_sale_month"/>
+            <field name="name">Month</field>
+            <field name="sequence">1</field>
+        </record>
+        <record model="babi.dimension" id="sale_month_year_salesman__year">
+            <field name="report" ref="sale_month_year_salesman"/>
+            <field name="expression" ref="sale_sale_year"/>
+            <field name="name">Year-Month</field>
+            <field name="sequence">2</field>
+        </record>
+        <record model="babi.dimension.column" id="sale_month_year_salesman__salesman">
+            <field name="report" ref="sale_month_year_salesman"/>
+            <field name="expression" ref="sale_sale_salesman"/>
+            <field name="name">Salesman</field>
+            <field name="sequence">3</field>
+        </record>
+        <record model="babi.measure" id="sale_month_year_salesman__untaxed_amount">
+            <field name="report" ref="sale_month_year_salesman"/>
+            <field name="expression" ref="sale_sale_untaxed_amount"/>
+            <field name="name">Untaxed Amount</field>
+            <field name="aggregate">sum</field>
+        </record>
+   </data>
+
+   <data depends="sale_shop">
+        <record model="babi.expression" id="sale_sale_shop">
+            <field name="ttype">char</field>
+            <field name="model" search="[('model','=','sale.sale')]"/>
+            <field name="expression">o.shop and o.shop.rec_name</field>
+            <field name="name">Shop</field>
+        </record>
+
+
+        <!-- Month - Year - Shop | Amount Untaxed -->
+        <record model="babi.report" id="sale_month_year_shop">
+            <field name="parent_menu" ref="babi.menu_babi"/>
+            <field name="model" search="[('model','=','sale.sale')]"/>
+            <field name="filter" ref="processing_done_sales"/>
+            <field name="name">Sales by Month - Year - Shop</field>
+            <field name="timeout" eval="1200"/>
+        </record>
+        <record model="babi.report-res.group"
+                id="sale_month_year_shop_group_babi_">
+            <field name="report" ref="sale_month_year_shop"/>
+            <field name="group" ref="babi.group_babi"/>
+        </record>
+        <record model="babi.dimension" id="sale_month_year_shop__month">
+            <field name="report" ref="sale_month_year_shop"/>
+            <field name="expression" ref="sale_sale_month"/>
+            <field name="name">Month</field>
+            <field name="sequence">1</field>
+        </record>
+        <record model="babi.dimension" id="sale_month_year_shop__year">
+            <field name="report" ref="sale_month_year_shop"/>
+            <field name="expression" ref="sale_sale_year"/>
+            <field name="name">Year-Month</field>
+            <field name="sequence">2</field>
+        </record>
+        <record model="babi.dimension.column" id="sale_month_year_shop__shop">
+            <field name="report" ref="sale_month_year_shop"/>
+            <field name="expression" ref="sale_sale_shop"/>
+            <field name="name">Shop</field>
+            <field name="sequence">3</field>
+        </record>
+        <record model="babi.measure" id="sale_month_year_shop__untaxed_amount">
+            <field name="report" ref="sale_month_year_shop"/>
+            <field name="expression" ref="sale_sale_untaxed_amount"/>
+            <field name="name">Untaxed Amount</field>
+            <field name="aggregate">sum</field>
         </record>
    </data>
 </tryton>
