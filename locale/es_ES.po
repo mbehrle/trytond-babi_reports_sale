@@ -168,10 +168,6 @@ msgctxt "model:babi.dimension,name:sale_year_paymenttype__year"
 msgid "Year"
 msgstr "Año"
 
-msgctxt "model:babi.dimension.column,name:"
-msgid "Salesman"
-msgstr "Tienda"
-
 msgctxt "model:babi.dimension.column,name:sale_year_month_date__year"
 msgid "Year"
 msgstr "Año"
