@@ -8,34 +8,46 @@
         <record model="babi.filter" id="processing_done_sales">
             <field name="name">Processing/Done Sales</field>
             <field name="model" search="[('model', '=', 'sale.sale')]"/>
-            <field name="domain">[('state', 'in', ['processing','done'])]</field>
+            <field name="domain"
+                eval="[('state', 'in', ['processing','done'])]"
+                pyson="1"/>
         </record>
         <record model="babi.filter" id="processing_sales">
             <field name="name">Processing Sales</field>
             <field name="model" search="[('model', '=', 'sale.sale')]"/>
-            <field name="domain">[('state', 'in', ['processing'])]</field>
+            <field name="domain"
+                eval="[('state', 'in', ['processing'])]"
+                pyson="1"/>
         </record>
         <record model="babi.filter" id="done_sales">
             <field name="name">Done Sales</field>
             <field name="model" search="[('model', '=', 'sale.sale')]"/>
-            <field name="domain">[('state', 'in', ['done'])]</field>
+            <field name="domain"
+                eval="[('state', 'in', ['done'])]"
+                pyson="1"/>
         </record>
 
         <!-- Sale Lines -->
         <record model="babi.filter" id="processing_done_sale_lines">
             <field name="name">Processing/Done Sales</field>
             <field name="model" search="[('model', '=', 'sale.line')]"/>
-            <field name="domain">[('sale.state', 'in', ['processing','done'])]</field>
+            <field name="domain"
+                eval="[('sale.state', 'in', ['processing','done'])]"
+                pyson="1"/>
         </record>
         <record model="babi.filter" id="processing_sale_lines">
             <field name="name">Processing Sales</field>
             <field name="model" search="[('model', '=', 'sale.line')]"/>
-            <field name="domain">[('sale.state', 'in', ['processing'])]</field>
+            <field name="domain"
+                eval="[('sale.state', 'in', ['processing'])]"
+                pyson="1"/>
         </record>
         <record model="babi.filter" id="done_sale_lines">
             <field name="name">Done Sales</field>
             <field name="model" search="[('model', '=', 'sale.line')]"/>
-            <field name="domain">[('sale.state', 'in', ['done'])]</field>
+            <field name="domain"
+                eval="[('sale.state', 'in', ['done'])]"
+                pyson="1"/>
         </record>
 
         <!--
