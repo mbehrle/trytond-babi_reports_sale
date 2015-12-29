@@ -7,7 +7,7 @@ import os
 import ConfigParser
 
 MODULE = 'babi_reports_sale'
-PREFIX = 'zikzakmedia'
+PREFIX = 'trytonzz'
 MODULE2PREFIX = {}
 
 
