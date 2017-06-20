@@ -500,14 +500,6 @@ msgctxt "model:babi.measure,name:sale_year_month_date__untaxed_amount"
 msgid "Untaxed Amount"
 msgstr "Base imponible"
 
-msgctxt "model:babi.measure,name:sale_year_party_month__margin"
-msgid "Margin"
-msgstr "Margen"
-
-msgctxt "model:babi.measure,name:sale_year_party_month__margin_percent"
-msgid "Margin Percent Average"
-msgstr "Promedio porcentaje de margen"
-
 msgctxt "model:babi.measure,name:sale_year_party_month__untaxed_amount"
 msgid "Untaxed Amount"
 msgstr "Base imponible"
