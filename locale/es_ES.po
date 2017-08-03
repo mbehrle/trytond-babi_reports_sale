@@ -1,4 +1,4 @@
-# 
+#
 msgid ""
 msgstr "Content-Type: text/plain; charset=utf-8\n"
 
@@ -324,14 +324,6 @@ msgctxt "model:babi.expression,name:sale_sale_day"
 msgid "Day"
 msgstr "Día"
 
-msgctxt "model:babi.expression,name:sale_sale_margin"
-msgid "Margin"
-msgstr "Margen"
-
-msgctxt "model:babi.expression,name:sale_sale_margin_percent"
-msgid "Margin Percent"
-msgstr "Porcentaje de margen"
-
 msgctxt "model:babi.expression,name:sale_sale_month"
 msgid "Month"
 msgstr "Mes"
@@ -479,14 +471,6 @@ msgstr "Subtotal"
 msgctxt "model:babi.measure,name:sale_month_year__untaxed_amount"
 msgid "Untaxed Amount"
 msgstr "Base imponible"
-
-msgctxt "model:babi.measure,name:sale_party_year_month__margin"
-msgid "Margin"
-msgstr "Margen"
-
-msgctxt "model:babi.measure,name:sale_party_year_month__margin_percent"
-msgid "Margin Percent Average"
-msgstr "Promedio porcentaje de margen"
 
 msgctxt "model:babi.measure,name:sale_party_year_month__untaxed_amount"
 msgid "Untaxed Amount"
