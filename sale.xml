@@ -369,19 +369,19 @@
             <field name="report" ref="sale_year_month_date"/>
             <field name="expression" ref="sale_sale_year"/>
             <field name="name">Year</field>
-            <field name="sequence">1</field>
+            <field name="sequence" eval="1"/>
         </record>
         <record model="babi.dimension" id="sale_year_month_date__month">
             <field name="report" ref="sale_year_month_date"/>
             <field name="expression" ref="sale_sale_month"/>
             <field name="name">Month</field>
-            <field name="sequence">2</field>
+            <field name="sequence" eval="2"/>
         </record>
         <record model="babi.dimension" id="sale_year_month_date__date">
             <field name="report" ref="sale_year_month_date"/>
             <field name="expression" ref="sale_sale_day"/>
             <field name="name">Day</field>
-            <field name="sequence">3</field>
+            <field name="sequence" eval="3"/>
         </record>
         <record model="babi.measure" id="sale_year_month_date__untaxed_amount">
             <field name="report" ref="sale_year_month_date"/>
@@ -407,13 +407,13 @@
             <field name="report" ref="sale_month_year"/>
             <field name="expression" ref="sale_sale_month"/>
             <field name="name">Month</field>
-            <field name="sequence">1</field>
+            <field name="sequence" eval="1"/>
         </record>
         <record model="babi.dimension" id="sale_month_year__year">
             <field name="report" ref="sale_month_year"/>
             <field name="expression" ref="sale_sale_year"/>
             <field name="name">Year-Month</field>
-            <field name="sequence">2</field>
+            <field name="sequence" eval="2"/>
         </record>
         <record model="babi.measure" id="sale_month_year__untaxed_amount">
             <field name="report" ref="sale_month_year"/>
@@ -439,25 +439,25 @@
             <field name="report" ref="sale_year_country_state_city"/>
             <field name="expression" ref="sale_sale_year"/>
             <field name="name">Year</field>
-            <field name="sequence">1</field>
+            <field name="sequence" eval="1"/>
         </record>
         <record model="babi.dimension" id="sale_year_country_state_city__country">
             <field name="report" ref="sale_year_country_state_city"/>
             <field name="expression" ref="sale_sale_country"/>
             <field name="name">Country</field>
-            <field name="sequence">2</field>
+            <field name="sequence" eval="2"/>
         </record>
         <record model="babi.dimension" id="sale_year_country_state_city__state">
             <field name="report" ref="sale_year_country_state_city"/>
             <field name="expression" ref="sale_sale_region"/>
             <field name="name">State/Region</field>
-            <field name="sequence">3</field>
+            <field name="sequence" eval="3"/>
         </record>
         <record model="babi.dimension" id="sale_year_country_state_city__city">
             <field name="report" ref="sale_year_country_state_city"/>
             <field name="expression" ref="sale_sale_city"/>
             <field name="name">City</field>
-            <field name="sequence">4</field>
+            <field name="sequence" eval="4"/>
         </record>
         <record model="babi.measure" id="sale_year_country_state_city__untaxed_amount">
             <field name="report" ref="sale_year_country_state_city"/>
@@ -483,7 +483,7 @@
             <field name="report" ref="sale_year_paymenttype"/>
             <field name="expression" ref="sale_sale_year"/>
             <field name="name">Year</field>
-            <field name="sequence">1</field>
+            <field name="sequence" eval="1"/>
         </record>
         <record model="babi.measure" id="sale_year_paymenttype__untaxed_amount">
             <field name="report" ref="sale_year_paymenttype"/>
@@ -509,26 +509,26 @@
             <field name="report" ref="sale_party_year_month"/>
             <field name="expression" ref="sale_sale_party_name"/>
             <field name="name">Party</field>
-            <field name="sequence">1</field>
+            <field name="sequence" eval="1"/>
         </record>
         <record model="babi.dimension" id="sale_party_year_month__year">
             <field name="report" ref="sale_party_year_month"/>
             <field name="expression" ref="sale_sale_year"/>
             <field name="name">Year</field>
-            <field name="sequence">2</field>
+            <field name="sequence" eval="2"/>
         </record>
         <record model="babi.dimension" id="sale_party_year_month__month">
             <field name="report" ref="sale_party_year_month"/>
             <field name="expression" ref="sale_sale_month"/>
             <field name="name">Month</field>
-            <field name="sequence">3</field>
+            <field name="sequence" eval="3"/>
         </record>
         <record model="babi.measure" id="sale_party_year_month__untaxed_amount">
             <field name="report" ref="sale_party_year_month"/>
             <field name="expression" ref="sale_sale_untaxed_amount"/>
             <field name="name">Untaxed Amount</field>
             <field name="aggregate">sum</field>
-            <field name="sequence">1</field>
+            <field name="sequence" eval="1"/>
         </record>
 
         <!-- Year - Party - Month | Amount Untaxed - Margin - Margin Percent -->
@@ -548,26 +548,26 @@
             <field name="report" ref="sale_year_party_month"/>
             <field name="expression" ref="sale_sale_year"/>
             <field name="name">Year</field>
-            <field name="sequence">1</field>
+            <field name="sequence" eval="1"/>
         </record>
         <record model="babi.dimension" id="sale_year_party_month__party">
             <field name="report" ref="sale_year_party_month"/>
             <field name="expression" ref="sale_sale_party_name"/>
             <field name="name">Party</field>
-            <field name="sequence">2</field>
+            <field name="sequence" eval="2"/>
         </record>
         <record model="babi.dimension" id="sale_year_party_month__month">
             <field name="report" ref="sale_year_party_month"/>
             <field name="expression" ref="sale_sale_month"/>
             <field name="name">Month</field>
-            <field name="sequence">3</field>
+            <field name="sequence" eval="3"/>
         </record>
         <record model="babi.measure" id="sale_year_party_month__untaxed_amount">
             <field name="report" ref="sale_year_party_month"/>
             <field name="expression" ref="sale_sale_untaxed_amount"/>
             <field name="name">Untaxed Amount</field>
             <field name="aggregate">sum</field>
-            <field name="sequence">1</field>
+            <field name="sequence" eval="1"/>
         </record>
 
         <!-- sale.line -->
@@ -588,33 +588,33 @@
             <field name="report" ref="sale_line_year_product_month"/>
             <field name="expression" ref="sale_line_year"/>
             <field name="name">Year</field>
-            <field name="sequence">1</field>
+            <field name="sequence" eval="1"/>
         </record>
         <record model="babi.dimension" id="sale_line_year_product_month__product">
             <field name="report" ref="sale_line_year_product_month"/>
             <field name="expression" ref="sale_line_product"/>
             <field name="name">Product</field>
-            <field name="sequence">2</field>
+            <field name="sequence" eval="2"/>
         </record>
         <record model="babi.dimension" id="sale_line_year_product_month__month">
             <field name="report" ref="sale_line_year_product_month"/>
             <field name="expression" ref="sale_line_month"/>
             <field name="name">Month</field>
-            <field name="sequence">3</field>
+            <field name="sequence" eval="3"/>
         </record>
         <record model="babi.measure" id="sale_line_year_product_month__quantity">
             <field name="report" ref="sale_line_year_product_month"/>
             <field name="expression" ref="sale_line_quantity"/>
             <field name="name">Quantity</field>
             <field name="aggregate">sum</field>
-            <field name="sequence">1</field>
+            <field name="sequence" eval="1"/>
         </record>
         <record model="babi.measure" id="sale_line_year_product_month__subtotal">
             <field name="report" ref="sale_line_year_product_month"/>
             <field name="expression" ref="sale_line_subtotal"/>
             <field name="name">Amount</field>
             <field name="aggregate">sum</field>
-            <field name="sequence">2</field>
+            <field name="sequence" eval="2"/>
         </record>
 
         <!-- Year - Product - Party - Month | Quantity - Subtotal - Discount -->
@@ -634,39 +634,39 @@
             <field name="report" ref="sale_line_year_product_party_month"/>
             <field name="expression" ref="sale_line_year"/>
             <field name="name">Year</field>
-            <field name="sequence">1</field>
+            <field name="sequence" eval="1"/>
         </record>
         <record model="babi.dimension" id="sale_line_year_product_party_month__product">
             <field name="report" ref="sale_line_year_product_party_month"/>
             <field name="expression" ref="sale_line_product"/>
             <field name="name">Product</field>
-            <field name="sequence">2</field>
+            <field name="sequence" eval="2"/>
         </record>
         <record model="babi.dimension" id="sale_line_year_product_party_month__party">
             <field name="report" ref="sale_line_year_product_party_month"/>
             <field name="expression" ref="sale_line_party_name"/>
             <field name="name">Party</field>
-            <field name="sequence">3</field>
+            <field name="sequence" eval="3"/>
         </record>
         <record model="babi.dimension" id="sale_line_year_product_party_month__month">
             <field name="report" ref="sale_line_year_product_party_month"/>
             <field name="expression" ref="sale_line_month"/>
             <field name="name">Month</field>
-            <field name="sequence">4</field>
+            <field name="sequence" eval="4"/>
         </record>
         <record model="babi.measure" id="sale_line_year_product_party_month__quantity">
             <field name="report" ref="sale_line_year_product_party_month"/>
             <field name="expression" ref="sale_line_quantity"/>
             <field name="name">Quantity</field>
             <field name="aggregate">sum</field>
-            <field name="sequence">1</field>
+            <field name="sequence" eval="1"/>
         </record>
         <record model="babi.measure" id="sale_line_year_product_party_month__subtotal">
             <field name="report" ref="sale_line_year_product_party_month"/>
             <field name="expression" ref="sale_line_subtotal"/>
             <field name="name">Subtotal</field>
             <field name="aggregate">sum</field>
-            <field name="sequence">2</field>
+            <field name="sequence" eval="2"/>
         </record>
 
         <!-- Party - Product - Year - Month | Quantity - Subtotal - Discount -->
@@ -686,39 +686,39 @@
             <field name="report" ref="sale_line_party_product_year_month"/>
             <field name="expression" ref="sale_line_party_name"/>
             <field name="name">Party</field>
-            <field name="sequence">1</field>
+            <field name="sequence" eval="1"/>
         </record>
         <record model="babi.dimension" id="sale_line_party_product_year_month__product">
             <field name="report" ref="sale_line_party_product_year_month"/>
             <field name="expression" ref="sale_line_product"/>
             <field name="name">Product</field>
-            <field name="sequence">2</field>
+            <field name="sequence" eval="2"/>
         </record>
         <record model="babi.dimension" id="sale_line_party_product_year_month__year">
             <field name="report" ref="sale_line_party_product_year_month"/>
             <field name="expression" ref="sale_line_year"/>
             <field name="name">Year</field>
-            <field name="sequence">3</field>
+            <field name="sequence" eval="3"/>
         </record>
         <record model="babi.dimension" id="sale_line_party_product_year_month__month">
             <field name="report" ref="sale_line_party_product_year_month"/>
             <field name="expression" ref="sale_line_month"/>
             <field name="name">Month</field>
-            <field name="sequence">4</field>
+            <field name="sequence" eval="4"/>
         </record>
         <record model="babi.measure" id="sale_line_party_product_year_month__quantity">
             <field name="report" ref="sale_line_party_product_year_month"/>
             <field name="expression" ref="sale_line_quantity"/>
             <field name="name">Quantity</field>
             <field name="aggregate">sum</field>
-            <field name="sequence">1</field>
+            <field name="sequence" eval="1"/>
         </record>
         <record model="babi.measure" id="sale_line_party_product_year_month__subtotal">
             <field name="report" ref="sale_line_party_product_year_month"/>
             <field name="expression" ref="sale_line_subtotal"/>
             <field name="name">Subtotal</field>
             <field name="aggregate">sum</field>
-            <field name="sequence">2</field>
+            <field name="sequence" eval="2"/>
         </record>
 
         <!-- Product - Year - Month | Quantity - Subtotal -->
@@ -738,33 +738,33 @@
             <field name="report" ref="sale_line_product_year_month"/>
             <field name="expression" ref="sale_line_product"/>
             <field name="name">Product</field>
-            <field name="sequence">1</field>
+            <field name="sequence" eval="1"/>
         </record>
         <record model="babi.dimension" id="sale_line_product_year_month__year">
             <field name="report" ref="sale_line_product_year_month"/>
             <field name="expression" ref="sale_line_year"/>
             <field name="name">Year</field>
-            <field name="sequence">2</field>
+            <field name="sequence" eval="2"/>
         </record>
         <record model="babi.dimension" id="sale_line_product_year_month__month">
             <field name="report" ref="sale_line_product_year_month"/>
             <field name="expression" ref="sale_line_month"/>
             <field name="name">Month</field>
-            <field name="sequence">3</field>
+            <field name="sequence" eval="3"/>
         </record>
         <record model="babi.measure" id="sale_line_product_year_month__quantity">
             <field name="report" ref="sale_line_product_year_month"/>
             <field name="expression" ref="sale_line_quantity"/>
             <field name="name">Quantity</field>
             <field name="aggregate">sum</field>
-            <field name="sequence">1</field>
+            <field name="sequence" eval="1"/>
         </record>
         <record model="babi.measure" id="sale_line_product_year_month__subtotal">
             <field name="report" ref="sale_line_product_year_month"/>
             <field name="expression" ref="sale_line_subtotal"/>
             <field name="name">Subtotal</field>
             <field name="aggregate">sum</field>
-            <field name="sequence">2</field>
+            <field name="sequence" eval="2"/>
         </record>
 
         <!-- Year - Product Category - Product | Quantity - Subtotal -->
@@ -784,33 +784,33 @@
             <field name="report" ref="sale_line_year_productcategory_product"/>
             <field name="expression" ref="sale_line_year"/>
             <field name="name">Year</field>
-            <field name="sequence">1</field>
+            <field name="sequence" eval="1"/>
         </record>
         <record model="babi.dimension" id="sale_line_year_productcategory_product__category">
             <field name="report" ref="sale_line_year_productcategory_product"/>
             <field name="expression" ref="sale_line_product_category"/>
             <field name="name">Product Category</field>
-            <field name="sequence">2</field>
+            <field name="sequence" eval="2"/>
         </record>
         <record model="babi.dimension" id="sale_line_year_productcategory_product__product">
             <field name="report" ref="sale_line_year_productcategory_product"/>
             <field name="expression" ref="sale_line_product"/>
             <field name="name">Product</field>
-            <field name="sequence">3</field>
+            <field name="sequence" eval="3"/>
         </record>
         <record model="babi.measure" id="sale_line_year_productcategory_product__quantity">
             <field name="report" ref="sale_line_year_productcategory_product"/>
             <field name="expression" ref="sale_line_quantity"/>
             <field name="name">Quantity</field>
             <field name="aggregate">sum</field>
-            <field name="sequence">1</field>
+            <field name="sequence" eval="1"/>
         </record>
         <record model="babi.measure" id="sale_line_year_productcategory_product__subtotal">
             <field name="report" ref="sale_line_year_productcategory_product"/>
             <field name="expression" ref="sale_line_subtotal"/>
             <field name="name">Subtotal</field>
             <field name="aggregate">sum</field>
-            <field name="sequence">2</field>
+            <field name="sequence" eval="2"/>
         </record>
 
         <!-- Year - Product - Country - State - City | Quantity - Subtotal -->
@@ -830,45 +830,45 @@
             <field name="report" ref="sale_line_year_product_country_state_city"/>
             <field name="expression" ref="sale_line_year"/>
             <field name="name">Year</field>
-            <field name="sequence">1</field>
+            <field name="sequence" eval="1"/>
         </record>
         <record model="babi.dimension" id="sale_line_year_product_country_state_city__product">
             <field name="report" ref="sale_line_year_product_country_state_city"/>
             <field name="expression" ref="sale_line_product"/>
             <field name="name">Product</field>
-            <field name="sequence">2</field>
+            <field name="sequence" eval="2"/>
         </record>
         <record model="babi.dimension" id="sale_line_year_product_country_state_city__country">
             <field name="report" ref="sale_line_year_product_country_state_city"/>
             <field name="expression" ref="sale_line_country"/>
             <field name="name">Country</field>
-            <field name="sequence">3</field>
+            <field name="sequence" eval="3"/>
         </record>
         <record model="babi.dimension" id="sale_line_year_product_country_state_city__state">
             <field name="report" ref="sale_line_year_product_country_state_city"/>
             <field name="expression" ref="sale_line_region"/>
             <field name="name">State/Region</field>
-            <field name="sequence">4</field>
+            <field name="sequence" eval="4"/>
         </record>
         <record model="babi.dimension" id="sale_line_year_product_country_state_city__city">
             <field name="report" ref="sale_line_year_product_country_state_city"/>
             <field name="expression" ref="sale_line_city"/>
             <field name="name">City</field>
-            <field name="sequence">5</field>
+            <field name="sequence" eval="5"/>
         </record>
         <record model="babi.measure" id="sale_line_year_product_country_state_city__quantity">
             <field name="report" ref="sale_line_year_product_country_state_city"/>
             <field name="expression" ref="sale_line_quantity"/>
             <field name="name">Quantity</field>
             <field name="aggregate">sum</field>
-            <field name="sequence">1</field>
+            <field name="sequence" eval="1"/>
         </record>
         <record model="babi.measure" id="sale_line_year_product_country_state_city__subtotal">
             <field name="report" ref="sale_line_year_product_country_state_city"/>
             <field name="expression" ref="sale_line_subtotal"/>
             <field name="name">Subtotal</field>
             <field name="aggregate">sum</field>
-            <field name="sequence">2</field>
+            <field name="sequence" eval="2"/>
         </record>
    </data>
 
@@ -898,18 +898,21 @@
             <field name="expression" ref="sale_sale_month"/>
             <field name="name">Month</field>
             <field name="sequence">1</field>
+            <field name="sequence" eval="1"/>
         </record>
         <record model="babi.dimension" id="sale_month_year_salesman__year">
             <field name="report" ref="sale_month_year_salesman"/>
             <field name="expression" ref="sale_sale_year"/>
             <field name="name">Year-Month</field>
             <field name="sequence">2</field>
+            <field name="sequence" eval="1"/>
         </record>
         <record model="babi.dimension.column" id="sale_month_year_salesman__salesman">
             <field name="report" ref="sale_month_year_salesman"/>
             <field name="expression" ref="sale_sale_salesman"/>
             <field name="name">Salesman</field>
             <field name="sequence">3</field>
+            <field name="sequence" eval="1"/>
         </record>
         <record model="babi.measure" id="sale_month_year_salesman__untaxed_amount">
             <field name="report" ref="sale_month_year_salesman"/>
@@ -945,19 +948,19 @@
             <field name="report" ref="sale_month_year_shop"/>
             <field name="expression" ref="sale_sale_month"/>
             <field name="name">Month</field>
-            <field name="sequence">1</field>
+            <field name="sequence" eval="1"/>
         </record>
         <record model="babi.dimension" id="sale_month_year_shop__year">
             <field name="report" ref="sale_month_year_shop"/>
             <field name="expression" ref="sale_sale_year"/>
             <field name="name">Year-Month</field>
-            <field name="sequence">2</field>
+            <field name="sequence" eval="2"/>
         </record>
         <record model="babi.dimension.column" id="sale_month_year_shop__shop">
             <field name="report" ref="sale_month_year_shop"/>
             <field name="expression" ref="sale_sale_shop"/>
             <field name="name">Shop</field>
-            <field name="sequence">3</field>
+            <field name="sequence" eval="3"/>
         </record>
         <record model="babi.measure" id="sale_month_year_shop__untaxed_amount">
             <field name="report" ref="sale_month_year_shop"/>
@@ -983,7 +986,7 @@
             <field name="report" ref="sale_year_paymenttype"/>
             <field name="expression" ref="sale_sale_payment_type"/>
             <field name="name">Payment Type</field>
-            <field name="sequence">2</field>
+            <field name="sequence" eval="2"/>
         </record>
    </data>
    <data depends="sale_discount">
@@ -998,14 +1001,14 @@
             <field name="expression" ref="sale_line_discount"/>
             <field name="name">Discount Average</field>
             <field name="aggregate">avg</field>
-            <field name="sequence">3</field>
+            <field name="sequence" eval="3"/>
         </record>
         <record model="babi.measure" id="sale_line_party_product_year_month__discount">
             <field name="report" ref="sale_line_party_product_year_month"/>
             <field name="expression" ref="sale_line_discount"/>
             <field name="name">Discount Average</field>
             <field name="aggregate">avg</field>
-            <field name="sequence">3</field>
+            <field name="sequence" eval="3"/>
         </record>
    </data>
    <data depends="sale_margin">
@@ -1027,14 +1030,14 @@
             <field name="expression" ref="sale_sale_margin"/>
             <field name="name">Margin</field>
             <field name="aggregate">sum</field>
-            <field name="sequence">2</field>
+            <field name="sequence" eval="2"/>
         </record>
         <record model="babi.measure" id="sale_party_year_month__margin_percent">
             <field name="report" ref="sale_party_year_month"/>
             <field name="expression" ref="sale_sale_margin_percent"/>
             <field name="name">Margin Percent Average</field>
             <field name="aggregate">avg</field>
-            <field name="sequence">3</field>
+            <field name="sequence" eval="3"/>
         </record>
 
         <record model="babi.measure" id="sale_year_party_month__margin">
@@ -1042,14 +1045,14 @@
             <field name="expression" ref="sale_sale_margin"/>
             <field name="name">Margin</field>
             <field name="aggregate">sum</field>
-            <field name="sequence">2</field>
+            <field name="sequence" eval="2"/>
         </record>
         <record model="babi.measure" id="sale_year_party_month__margin_percent">
             <field name="report" ref="sale_year_party_month"/>
             <field name="expression" ref="sale_sale_margin_percent"/>
             <field name="name">Margin Percent Average</field>
             <field name="aggregate">avg</field>
-            <field name="sequence">3</field>
+            <field name="sequence" eval="3"/>
         </record>
    </data>
 </tryton>
