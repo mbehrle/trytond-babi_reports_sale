@@ -62,7 +62,7 @@
             <field name="related_model" search="[('model','=','sale.sale')]"/>
         </record>
         <record model="babi.expression" id="sale_sale">
-            <field name="ttype">integer</field>
+            <field name="ttype">int</field>
             <field name="model" search="[('model','=','sale.sale')]"/>
             <field name="expression">o.id</field>
             <field name="name">ID</field>
