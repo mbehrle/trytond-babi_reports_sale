@@ -897,22 +897,19 @@
             <field name="report" ref="sale_month_year_salesman"/>
             <field name="expression" ref="sale_sale_month"/>
             <field name="name">Month</field>
-            <field name="sequence">1</field>
             <field name="sequence" eval="1"/>
         </record>
         <record model="babi.dimension" id="sale_month_year_salesman__year">
             <field name="report" ref="sale_month_year_salesman"/>
             <field name="expression" ref="sale_sale_year"/>
             <field name="name">Year-Month</field>
-            <field name="sequence">2</field>
-            <field name="sequence" eval="1"/>
+            <field name="sequence" eval="2"/>
         </record>
         <record model="babi.dimension.column" id="sale_month_year_salesman__salesman">
             <field name="report" ref="sale_month_year_salesman"/>
             <field name="expression" ref="sale_sale_salesman"/>
             <field name="name">Salesman</field>
-            <field name="sequence">3</field>
-            <field name="sequence" eval="1"/>
+            <field name="sequence" eval="3"/>
         </record>
         <record model="babi.measure" id="sale_month_year_salesman__untaxed_amount">
             <field name="report" ref="sale_month_year_salesman"/>
