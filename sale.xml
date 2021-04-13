@@ -136,7 +136,7 @@
         <record model="babi.expression" id="sale_sale_zip">
             <field name="ttype">char</field>
             <field name="model" search="[('model','=','sale.sale')]"/>
-            <field name="expression">o.invoice_address.zip</field>
+            <field name="expression">o.invoice_address.postal_code</field>
             <field name="name">Zip</field>
         </record>
         <record model="babi.expression" id="sale_sale_region">
@@ -234,7 +234,7 @@
         <record model="babi.expression" id="sale_line_zip">
             <field name="ttype">char</field>
             <field name="model" search="[('model','=','sale.line')]"/>
-            <field name="expression">o.sale.invoice_address.zip</field>
+            <field name="expression">o.sale.invoice_address.postal_code</field>
             <field name="name">Zip</field>
         </record>
         <record model="babi.expression" id="sale_line_region">
