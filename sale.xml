@@ -180,7 +180,7 @@
         <record model="babi.expression" id="sale_line_year">
             <field name="ttype">char</field>
             <field name="model" search="[('model','=','sale.line')]"/>
-            <field name="expression">y(o.sale.sale_date)</field>
+            <field name="expression">y(o.sale and o.sale.sale_date)</field>
             <field name="name">Year</field>
         </record>
         <record model="babi.expression" id="sale_line_month">
@@ -314,7 +314,7 @@
         <record model="babi.expression" id="sale_line_uos">
             <field name="ttype">char</field>
             <field name="model" search="[('model','=','sale.line')]"/>
-            <field name="expression">o.unit.rec_name</field>
+            <field name="expression">o.unit and o.unit.rec_name</field>
             <field name="name">UoM</field>
         </record>
         <record model="babi.expression" id="sale_line_tax_name">
@@ -332,7 +332,7 @@
         <record model="babi.expression" id="sale_line_product_type">
             <field name="ttype">char</field>
             <field name="model" search="[('model','=','sale.line')]"/>
-            <field name="expression">o.product and o.product_id.type</field>
+            <field name="expression">o.product and o.product.type</field>
             <field name="name">Product Type</field>
         </record>
         <record model="babi.expression" id="sale_line_available_quantity">
