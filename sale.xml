@@ -258,7 +258,7 @@
         <record model="babi.expression" id="sale_line_payment_term">
             <field name="ttype">char</field>
             <field name="model" search="[('model','=','sale.line')]"/>
-            <field name="expression">o.sale.payment_term.rec_name</field>
+            <field name="expression">o.sale.payment_term and o.sale.payment_term.rec_name</field>
             <field name="name">Payment Term</field>
         </record>
         <record model="babi.expression" id="sale_line_state">
