@@ -1,0 +1,5 @@
+[run]
+source = trytond.modules.babi_reports_sale
+
+[report]
+omit = */tests/*,*/setup.py
